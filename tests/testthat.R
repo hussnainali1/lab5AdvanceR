@@ -8,7 +8,7 @@
 
 library(testthat)
 library(lab5AdvanceR)
-library(shiny.web.application)
+# library(shiny.web.application)C
 
 test_check("lab5AdvanceR")
-test_check("shiny.web.application")
+# test_check("shiny.web.application")

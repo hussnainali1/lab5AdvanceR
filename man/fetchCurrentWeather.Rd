@@ -2,7 +2,7 @@
 % Please edit documentation in R/Functions.R
 \name{fetchCurrentWeather}
 \alias{fetchCurrentWeather}
-\title{FetchCurrentWeather}
+\title{fetchCurrentWeather}
 \usage{
 fetchCurrentWeather(queryCity)
 }
@@ -13,7 +13,7 @@ fetchCurrentWeather(queryCity)
 A DataFrame
 }
 \description{
-FetchCurrentWeather
+fetchCurrentWeather
 }
 \examples{
 fetchCurrentWeather("Pakistan")

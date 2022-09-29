@@ -1,15 +1,23 @@
 Package: lab5AdvanceR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Weather Information
 Version: 0.1.0
-Author: Who wrote it
+Authors@R: c( person("hussnain", "ali", , "hussnainkhilgi1@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID")), 
+            person("Atta Ullah", "Khan", , "attaullahkhan.comsats@gmail.com", role = "ctb",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+           )
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: This package provides information about the weather of a Country.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Imports: 
+    future,
+    httr,
+    jsonlite

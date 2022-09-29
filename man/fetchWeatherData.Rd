@@ -2,7 +2,7 @@
 % Please edit documentation in R/Functions.R
 \name{fetchWeatherData}
 \alias{fetchWeatherData}
-\title{FetchWeatherData}
+\title{fetchWeatherData}
 \usage{
 fetchWeatherData(queryCity)
 }
@@ -10,10 +10,10 @@ fetchWeatherData(queryCity)
 \item{queryCity}{A String}
 }
 \value{
-DataFrame
+A DataFrame
 }
 \description{
-FetchWeatherData
+fetchWeatherData
 }
 \examples{
 fetchWeatherData("pakistan")
