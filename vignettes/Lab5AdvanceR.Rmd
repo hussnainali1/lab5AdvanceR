@@ -1,0 +1,31 @@
+---
+title: "Lab5AdvanceR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Lab5AdvanceR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Here i have import the package and load it in the environment
+```{r setup}
+library(lab5AdvanceR)
+```
+
+<strong>FetchWeatherData()</strong> function takes the parameter and return the 24 hour weather forcast of the current date and temperature is in DEGREE's. Parameter must be of type string, return type of this function is DataFrame and input parameter must be a name of any country.
+```{r echo=FALSE}
+fetchWeatherData("pakistan")
+```
+
+
+<strong>FetchCurrentWeather() </strong>function takes the parameter and return the current weather forcast and temperature is in DEGREE's. Parameter must be of type string, return type of this function is DataFrame and input parameter must be a name of any country.
+```{r echo=FALSE}
+fetchWeatherData("pakistan")
+```
