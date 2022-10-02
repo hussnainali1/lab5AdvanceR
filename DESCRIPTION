@@ -4,7 +4,7 @@ Title: Weather Information
 Version: 0.1.0
 Authors@R: c( person("hussnain", "ali", , "hussnainkhilgi1@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID")), 
-            person("Atta Ullah", "Khan", , "attaullahkhan.comsats@gmail.com", role = "ctb",
+            person("Atta", "Khan", , "attaullahkhan.comsats@gmail.com", role = "ctb",
            comment = c(ORCID = "YOUR-ORCID-ID"))
            )
 Maintainer: The package maintainer <yourself@somewhere.net>
