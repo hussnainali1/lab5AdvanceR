@@ -1,10 +1,3 @@
-library(httr)
-library(jsonlite)
-library(future)
-
-
-
-
 #' fetchWeatherData
 #'
 #' @param queryCity A String
